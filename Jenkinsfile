@@ -28,7 +28,8 @@ pipeline {
                 echo "Running tests in a fully containerized environment..."
                 dir ('.') {
                     sh 'docker-compose up'
-      }
+                }
+            }
         }
     }
 
