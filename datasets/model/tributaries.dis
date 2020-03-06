@@ -1,0 +1,70 @@
+table-name          'Discharge : 1'
+contents            'walking   '
+location            'Duero               '
+time-function       'non-equidistant'
+reference-time       20120102
+time-unit           'minutes'
+interpolation       'block'
+parameter           'time                '                     unit '[min]'
+parameter           'flux/discharge rate '                     unit '[m3/s]'
+parameter           'Salinity            '                     unit '[ppt]'
+parameter           'Temperature         '                     unit '[C]'
+records-in-table    2
+0  0.40  0.03 12.50
+4320  0.40  0.03 12.50
+table-name          'Discharge : 2'
+contents            'walking   '
+location            'Revinuesa               '
+time-function       'non-equidistant'
+reference-time       20120102
+time-unit           'minutes'
+interpolation       'block'
+parameter           'time                '                     unit '[min]'
+parameter           'flux/discharge rate '                     unit '[m3/s]'
+parameter           'Salinity            '                     unit '[ppt]'
+parameter           'Temperature         '                     unit '[C]'
+records-in-table    2
+0  0.40  0.03 12.50
+4320  0.40  0.03 12.50
+table-name          'Discharge : 3'
+contents            'walking   '
+location            'Ebrillos               '
+time-function       'non-equidistant'
+reference-time       20120102
+time-unit           'minutes'
+interpolation       'block'
+parameter           'time                '                     unit '[min]'
+parameter           'flux/discharge rate '                     unit '[m3/s]'
+parameter           'Salinity            '                     unit '[ppt]'
+parameter           'Temperature         '                     unit '[C]'
+records-in-table    2
+0  0.40  0.03 12.50
+4320  0.40  0.03 12.50
+table-name          'Discharge : 4'
+contents            'walking   '
+location            'Dehesa               '
+time-function       'non-equidistant'
+reference-time       20120102
+time-unit           'minutes'
+interpolation       'block'
+parameter           'time                '                     unit '[min]'
+parameter           'flux/discharge rate '                     unit '[m3/s]'
+parameter           'Salinity            '                     unit '[ppt]'
+parameter           'Temperature         '                     unit '[C]'
+records-in-table    2
+0  0.40  0.03 12.50
+4320  0.40  0.03 12.50
+table-name          'Discharge : 5'
+contents            'walking   '
+location            'Remonicio               '
+time-function       'non-equidistant'
+reference-time       20120102
+time-unit           'minutes'
+interpolation       'block'
+parameter           'time                '                     unit '[min]'
+parameter           'flux/discharge rate '                     unit '[m3/s]'
+parameter           'Salinity            '                     unit '[ppt]'
+parameter           'Temperature         '                     unit '[C]'
+records-in-table    2
+0  0.40  0.03 12.50
+4320  0.40  0.03 12.50

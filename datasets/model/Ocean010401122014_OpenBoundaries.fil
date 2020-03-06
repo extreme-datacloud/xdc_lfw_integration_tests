@@ -1,0 +1,48 @@
+Domain, Checked : No        
+     Grid                  : Media.grd
+     Grid enclosure        : Media.enc
+     Bathymetry            : MEdia_dragada.dep
+     Dry points            : mediares.dry
+     Thin dams             : none
+
+Time frame, Checked : No        
+
+Processes, Checked : No        
+
+Initial conditions, Checked : No        
+     Initial conditions    : initial_35capas_M122_N952014.ini
+
+Boundaries, Checked : No        
+     Boundary definitions  : Todo.bnd
+     Astronomical flow conditions : none
+     Astronomical corrections : none
+     Harmonic flow conditions : none
+     QH-relation flow conditions : none
+     Time series flow conditions : Todo.bct
+     Transport conditions  : Todo.bcc
+
+Physical parameters, Checked : No        
+     Roughness coefficients : none
+     Hor. viscosity/diffusivity : none
+     Heat flux model data  : HEat_Flux_curated_2014.tem
+     Sediment data         : none
+     Morphology data       : none
+     Uniform wind data     : Wind'2014-04-01 00_00_00''2014-12-01 00_00_00'.wnd
+     Space varying wind data : none
+
+Numerical parameters, Checked : No        
+
+Operations, Checked : No        
+     Discharge definitions : none
+     Discharge data        : none
+     Dredging and dumping data : none
+
+Monitoring, Checked : No        
+     Observation points    : media.obs
+     Drogues               : none
+     Cross-sections        : none
+
+Additional parameters, Checked : No        
+
+Output, Checked : No        
+     Fourier analysis data : none

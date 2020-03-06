@@ -1,0 +1,81 @@
+
+********************************************************************************
+***
+*** Deltares, FLOW2D3D Version 6.02.13.63186, Feb 18 2019, 12:29:47
+***           built from : https://svn.oss.deltares.nl/repos/delft3d/tags/delft3d4/7545
+***
+***           runid      : test_1
+***           date,time  : 2019-02-18, 14:19:43
+***
+********************************************************************************
+
+      
+      ********************************************************************************
+      ***
+      *** Deltares, FLOW2D3D Version 6.02.13.63186, Feb 18 2019, 12:29:47
+      ***           built from : https://svn.oss.deltares.nl/repos/delft3d/tags/delft3d4/7545
+      ***
+      ***           runid      : test_1
+      ***           date,time  : 2019-02-18, 14:19:38
+      ***
+      ********************************************************************************
+      
+      *** MESSAGE Ocean heat model: Stanton number specified to be    0.13000E-02
+      *** MESSAGE Ocean heat model: Dalton number specified to be    0.13000E-02
+      *** MESSAGE Using solar radiation specified in .tem file
+      *** MESSAGE Using UNESCO density formulation by default
+      *** MESSAGE Evaporation taken into account in continuity equation
+       *** no slip defined at walls
+      *** MESSAGE Number of pivot points to convert wind speed to wind drag coef.: 3
+      *** WARNING Using default momentum solver "Multi Directional Upwind Explicit"
+                  cyclic can not be used as momentum solver in z-model
+      *** MESSAGE DRYFLP and DPSOPT both specified in MD-file. Using DPSOPT: DP
+      *** WARNING Using default transport solver "Van Leer-2 (explicit)"
+                  cyclic-method can not be used as transport solver in z-model
+      *** MESSAGE Upwind advection scheme only near momentum discharges
+      *** MESSAGE Reading BC-hydrodynamic file Presa.bct
+      *** MESSAGE Reading BC-transport file Presa.bcc
+      *** MESSAGE Reading Discharge file TMP_Ocean010401122015_5.dis
+      *** MESSAGE Reading Heat module file rad2015_distribuida.tem
+      
+      *** End   of tdatom for model: test_1                                       ***
+      ***       2019-02-18 14:19:42                                               ***
+*** MESSAGE Executable for 64-bits platform. 
+*** MESSAGE Double precision computation using reals of kind    8 
+*** Start of User Defined Model description 
+ -
+ -  Discharges + OB               
+ -  desde abril hasta             
+ -  noviembre                     
+ -
+*** End   of User Defined Model description 
+
+*** MESSAGE Z-model used 
+*** MESSAGE Upwind advection scheme only near momentum discharges 
+*** MESSAGE Ocean heat model: Stanton number specified to be    0.13000E-02 
+*** MESSAGE Ocean heat model: Dalton number specified to be    0.13000E-02 
+*** MESSAGE Using solar radiation specified in .tem file 
+*** MESSAGE Using UNESCO density formulation by default 
+*** MESSAGE Evaporation taken into account in continuity equation 
+ *** no slip defined at walls
+*** MESSAGE Number of pivot points to convert wind speed to wind drag coef.: 3 
+*** WARNING Using default momentum solver "Multi Directional Upwind Explicit" 
+            cyclic can not be used as momentum solver in z-model
+*** MESSAGE DRYFLP and DPSOPT both specified in MD-file. Using DPSOPT: DP 
+*** WARNING Using default transport solver "Van Leer-2 (explicit)" 
+            cyclic-method can not be used as transport solver in z-model
+*** MESSAGE map-file format is NetCDF
+*** MESSAGE His, map, drogue, and fourier files written in single precision (except for time and horizontal coordinates).
+*** WARNING Waq store end time is set to simulation end time 
+*** Start  of waq parameters input
+Write waq output              :         Yes
+Start at time step            :           0
+Output every N time steps     :          72
+Stop at time step             :         576
+Aggregation (horizontal)      : active only
+Aggregation (vertical)        : 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+*** End    of waq parameters input
+*** MESSAGE The communication file is written during the first time step only. Needed by WAQ. 
+
+*** ERROR File Wind%272015-04-01 000000%27%272015-11-01 000000%27.wnd does not exist 
+*** ERROR Flow exited abnormally 

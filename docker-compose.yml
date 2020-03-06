@@ -1,0 +1,40 @@
+version: '3.3'
+
+services:
+   frontend:
+     image: extremedatacloud/xdc_lfw_frontend:latest
+     volumes:
+       - ./datasets:/home/jovyan/datasets/LifeWatch/CdP
+     command:
+      - /bin/bash
+      - -c
+      - |
+        su jovyan
+        /opt/conda/bin/python3.6 -c "print('Hello')"
+        /opt/conda/bin/python3.6 -c "import XDC_nb;import datetime;XDC_nb.prepare_model(datetime.datetime.strptime('2012-01-01', '%Y-%m-%d'),datetime.datetime.strptime('2012-01-03', '%Y-%m-%d'), 'CdP', '/home/jovyan/datasets/LifeWatch/','')"
+     ports: 
+       - "8888"
+   model:
+     depends_on:
+       - frontend
+     image: ferag/barridocker:latest
+     user: root
+     volumes:
+       - ./datasets/:/datasets/CdP
+     environment:
+       - MODEL_PATH=/datasets/CdP/model_2012-01-01_2012-01-03
+       - INPUT_CONFIG_FILE=config_d_hydro.xml
+       - D3D_BIN=/delft3d_repository
+     command:
+       - /bin/sh
+       - -c
+       - |
+         rm waiting.sh
+         wget https://raw.githubusercontent.com/ferag/xdc_tmp/master/waiting.sh
+         chmod 775 waiting.sh
+         cat waiting.sh
+         ./waiting.sh
+         wget https://raw.githubusercontent.com/ferag/xdc_tmp/master/run_test.sh 
+         chmod 775 run_test.sh
+         ./run_test.sh
+         rm -rf $MODEL_PATH

@@ -1,0 +1,26 @@
+table-name           'Boundary Section : 1'
+contents             'Uniform         '
+location             'Presa               '
+time-function        'non-equidistant'
+reference-time       20120102
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Salinity            end A uniform'               unit '[ppt]'
+parameter            'Salinity            end B uniform'               unit '[ppt]'
+records-in-table     2
+0  0.03  0.03
+4320  0.03  0.03
+table-name           'Boundary Section : 1'
+contents             'Uniform         '
+location             'Presa               '
+time-function        'non-equidistant'
+reference-time       20120102
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Temperature           end A uniform'               unit '[C]'
+parameter            'Temperature           end B uniform'               unit '[C]'
+records-in-table     2
+0 12.50 12.50
+4320 12.50 12.50

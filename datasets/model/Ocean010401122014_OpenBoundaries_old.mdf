@@ -1,0 +1,167 @@
+Ident  = #Delft3D-FLOW 3.56.29165#
+Commnt =                  
+Runtxt = #OB#
+         #desde abril hasta#
+         #noviembre#
+Filcco = #Media.grd#
+Anglat =  4.1000000e+001
+Grdang =  0.0000000e+000
+Filgrd = #Media.enc#
+MNKmax = 122 95 35
+Thick  =  2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+          2.8571429e+000
+Commnt =                  
+Fildep = #MEdia_dragada.dep#
+Commnt =                  
+Commnt =                 no. dry points: 37
+Fildry = #mediares.dry#
+Commnt =                 no. thin dams: 0
+Commnt =                  
+Itdate = #2014-04-01#
+Tunit  = #M#
+Tstart =  0.0000000e+000
+Tstop  =  3.4992000e+005
+Dt     = 5
+Tzone  = 0
+Commnt =                  
+Sub1   = #STW #
+Sub2   = #   #
+Commnt =                  
+Wnsvwp = #N#
+Filwnd = #Wind'2014-04-01 00_00_00''2014-12-01 00_00_00'.wnd#
+Wndint = #Y#
+Commnt =                  
+Commnt =                 initial conditions from initial conditions file
+Filic  = #initial_35capas_M122_N952014.ini#
+Commnt =                  
+Commnt =                 no. open boundaries: 6
+Filbnd = #Todo.bnd#
+FilbcT = #Todo.bct#
+FilbcC = #Todo.bcc#
+Rettis =  0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+Rettib =  0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+          0.0000000e+000
+Commnt =                  
+Ag     =  9.8100000e+000
+Rhow   =  1.0000000e+003
+Tempw  =  1.5000000e+001
+Salw   =  3.1000000e+001
+Wstres =  6.3000000e-004  0.0000000e+000  7.2300000e-003  1.0000000e+002  7.2300000e-003  1.0000000e+002
+Rhoa   =  1.0000000e+000
+Betac  =  5.0000000e-001
+Equili = #N#
+Tkemod = #K-epsilon   #
+Ktemp  = 5
+Fclou  =  0.0000000e+000
+Sarea  =  0.0000000e+000
+Secchi =  2.1100000e+000
+Stantn =  1.3000000e-003
+Dalton =  1.3000000e-003
+Filtmp = #HEat_Flux_curated_2014.tem#
+Solrad = #Y#
+Temint = #Y#
+Commnt =                  
+Roumet = #M#
+Ccofu  =  5.0000000e-002
+Ccofv  =  5.0000000e-002
+Xlo    =  0.0000000e+000
+Vicouv =  5.0000000e-001
+Dicouv =  5.0000000e-001
+Htur2d = #N#
+Vicoww =  5.0000000e-006
+Dicoww =  5.0000000e-006
+Irov   = 2
+Commnt =                  
+Iter   =      2
+Dryflp = #YES#
+Dpsopt = #DP#
+Dpuopt = #MIN#
+Dryflc =  1.0000000e-001
+Dco    = -9.9900000e+002
+Tlfsmo =  6.0000000e+001
+ThetQH =  0.0000000e+000
+Forfuv = #Y#
+Forfww = #Y#
+Sigcor = #N#
+Trasol = #Cyclic-method#
+Momsol = #Cyclic#
+Commnt =                  
+Commnt =                 no. discharges: 0
+Commnt =                 no. observation points: 4
+Filsta = #media.obs#
+Commnt =                 no. drogues: 0
+Commnt =                  
+Commnt =                  
+Commnt =                 no. cross sections: 0
+Commnt =                  
+SMhydr = #YYYYY#     
+SMderv = #YYYYYY#    
+SMproc = #YYYYYYYYYY#
+PMhydr = #YYYYYY#    
+PMderv = #YYY#       
+PMproc = #YYYYYYYYYY#
+SHhydr = #YYYY#      
+SHderv = #YYYYY#     
+SHproc = #YYYYYYYYYY#
+SHflux = #YYYY#      
+PHhydr = #YYYYYY#    
+PHderv = #YYY#       
+PHproc = #YYYYYYYYYY#
+PHflux = #YYYY#      
+Prhis  =  1.3176000e+005 360  3.4992000e+005
+Flmap  =  0.0000000e+000 360  3.4992000e+005
+Flhis  =  0.0000000e+000 360  3.4992000e+005
+Flpp   =  0.0000000e+000 0  3.4992000e+005
+Flrst  = 1440
+Commnt =                  
+Online = #N#
+Flwq   =  0.0000000e+000 60  3.4992000e+005
+WaqAgg = #active only#
+IlAggr = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+Zmodel = #Y#
+Zbot   = -35.0
+Ztop   = 3.2
+Maseva = #Y#
+Commnt =                  
