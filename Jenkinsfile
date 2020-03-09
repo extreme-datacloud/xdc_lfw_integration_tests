@@ -24,6 +24,9 @@ pipeline {
             }
         }
         stage('Component integration tests') {
+            agent {
+                label 'docker-build'
+            }
             steps {
                 echo "Running tests in a fully containerized environment..."
                 dir ('.') {
