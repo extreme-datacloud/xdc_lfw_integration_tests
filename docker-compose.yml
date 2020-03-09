@@ -10,7 +10,6 @@ services:
       - -c
       - |
         su jovyan
-        /opt/conda/bin/python3.7 -c "print('Hello')"
         /opt/conda/bin/python3.7 -c "import XDC_nb;import datetime;XDC_nb.prepare_model(datetime.datetime.strptime('2012-01-01', '%Y-%m-%d'),datetime.datetime.strptime('2012-01-03', '%Y-%m-%d'), 'CdP', '/home/jovyan/datasets/LifeWatch/','')"
      ports: 
        - "8888"
