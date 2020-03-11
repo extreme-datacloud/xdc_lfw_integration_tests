@@ -1,5 +1,4 @@
 version: '3.3'
-
 services:
    frontend:
      image: extremedatacloud/xdc_lfw_frontend:latest
