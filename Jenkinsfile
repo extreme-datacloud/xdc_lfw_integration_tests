@@ -18,7 +18,7 @@ pipeline {
     }
 
     stages {
-        stage('Code fetching') {
+        stage('Code_fetching') {
             steps {
                 checkout scm
             }
