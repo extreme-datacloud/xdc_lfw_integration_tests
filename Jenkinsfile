@@ -28,7 +28,7 @@ pipeline {
                 label 'docker-build'
             }
             steps {
-                echo "Running tests in a fully containerized environment..."
+                echo "Running tests in a fully containerized environment"
                 dir ('.') {
                     sh 'docker-compose up'
                 }
